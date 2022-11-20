@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import description from "./description";
+import Description from "./Description";
 
-const PokeThumbnail = ({
+const PokemonThumbnail = ({
 id,
 name,
 image,
@@ -37,7 +37,7 @@ return (
 		{show === true ? "Know less..." : "Know more..."}
 		</button>
 		{show === true ? (
-		<description
+		<Description
 			weightpok={weight}
 			heightpok={height}
 			pokstat1={stat1}
@@ -61,4 +61,4 @@ return (
 );
 };
 
-export default PokeThumbnail;
+export default PokemonThumbnail;

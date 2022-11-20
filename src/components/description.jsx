@@ -1,6 +1,6 @@
 import React from "react";
 
-const description = ({
+const Description = ({
 heightpok,
 weightpok,
 pokstat1,
@@ -67,4 +67,4 @@ return (
 );
 };
 
-export default description;
+export default Description;

@@ -2,22 +2,13 @@
 
 body {
     margin: 0;
-    font-family: "Satisfy", cursive;
+    font-family: "Poppin", cursive;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: linear-gradient(
-        to right,
-        #eea2a2 0%,
-        #bbc1bf 19%,
-        #57c6e1 42%,
-        #b49fda 79%,
-        #7ac5d8 100%
-  );
+    background-color: rgb(225, 221, 230);
 }
 
-code {
-    font-family: "Satisfy", cursive;
-}
+
 
 .rock {
     background-image: linear-gradient(
@@ -87,25 +78,7 @@ code {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding: 3rem 1rem;
-}
-
-.app-container h1 {
-    width: 0ch;
-    color: rgb(93, 106, 112);
-    overflow: hidden;
-    white-space: nowrap;
-    animation: text 8s steps(120) infinite alternate;
-}
-
-@keyframes text {
-  0% {
-    width: 0ch;
-  }
-  50% {
-    width: 15ch;
-    color: rgb(149, 24, 160);
-  }
+    padding: 0rem 1rem;
 }
 
 .pokemon-container {
@@ -113,7 +86,6 @@ code {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .all-container {
@@ -130,7 +102,7 @@ code {
   justify-content: center;
   padding: 1.5rem 0.2rem;
   margin: 0.3rem;
-  border: 2px solid #efefef;
+  border: 5px solid #797676;
   border-radius: 2rem;
   min-width: 160px;
   text-align: center;
@@ -184,14 +156,12 @@ h3 {
     padding: 0.5rem 1.5rem;
     min-width: 20%;
     margin-top: 1rem;
-    font-size: large;
-   
+    font-size: large; 
 }
 
 button:hover {
     background-color: rgba(44, 5, 49, 0.867);
-    color: #bfd9fe;
-    
+    color: #bfd9fe;   
 }
 
 .pokeinfo {
@@ -199,6 +169,24 @@ button:hover {
     background-color: #697dbe;
 }
 
-h3 {
-    text-decoration: underline;
+
+.class-dropdown {
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #0a8f62;
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.class-font {
+    font-size: 1.5rem;
+    color: #4268e6;
 }
